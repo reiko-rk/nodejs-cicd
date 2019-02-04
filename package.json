@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-cicd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/**/*.js src/**/*.mjs"
+  },
+  "author": "",
+  "license": "ISC"
+}

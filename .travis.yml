@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - 8.5.0
+script:
+  - "npm run lint"
+  - "npm run test"
+deploy:
+  provider: heroku
+  api_key:
+    secure: eb978b1b-3f2d-4406-836f-6afdcd8938d3
+  app: nodejs-cicd
+  on:
+    repo: reiko-rk/nodejs-cicd
