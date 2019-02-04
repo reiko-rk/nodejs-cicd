@@ -9,11 +9,9 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "eslint": "^3.19.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "eslint": "^5.5.0",
+    "eslint": "^3.19.0",
     "jest": "^23.6.0"
   }
 }
